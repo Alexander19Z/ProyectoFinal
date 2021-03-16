@@ -142,6 +142,7 @@ strong {
 img.left {
     float: left;
     margin: 2px 1.25em 0 0;
+    top:-9px; 
 }
 
 img.top {
@@ -1495,13 +1496,14 @@ ul.link-list li:first-child {
     padding: 15px 25px 15px 25px;
     background-color: #007b9d;
     border-radius: 10px;
-    text-transform: lowercase;
+    /*text-transform: lowercase;*/
     text-decoration: none;
     color: #fff;
     font-size: 1.2em;
     letter-spacing: -1px;
     border: solid 1px #006e8b;
     box-shadow: inset 0px 0px 0px 1px #18a8c8;
+    text-align:center; 
 }
 
 .button:hover {
@@ -1574,6 +1576,7 @@ ul.link-list li:first-child {
     padding: 0 25px 0 25px;
     outline: 0;
     top:10px;
+    
 }
 
 #header nav a.current-page-item {background-image: -moz-linear-gradient(top, #0782a0, #077d9b);
@@ -1598,7 +1601,7 @@ ul.link-list li:first-child {
 /* Banner */
 
 #banner-wrapper {
-    background: #c8d2bc url(images/bg1.png);
+    background: #fff;
     padding: 2em 0;
 }
 
@@ -2193,6 +2196,24 @@ input[type="password"]{
     }
     
     
+    
+    
+}
+
+.form-control{
+    position: absolute;
+    margin-left: 10px;
+    left: 160px;
+    border-radius: 5px;
+   border: 1px solid #39c;
+   
+}
+
+.chatExpertoblo{
+    position: absolute;
+    height:700px;
+    width: 700px;
+        
     
     
 }
