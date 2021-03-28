@@ -1564,7 +1564,7 @@ ul.link-list li:first-child {
     right: 40px;
     top: 1px;
     line-height: 84px;
-    text-transform: lowercase;
+    /*text-transform: lowercase;*/
     font-size: 1.3em;
     letter-spacing: -1px;
 }
@@ -1588,17 +1588,18 @@ ul.link-list li:first-child {
                                  box-shadow: inset 0px 1px 5px 1px rgba(0, 0, 0, 0.1), 0px 0px 5px 1px rgba(255, 255, 255, 0.1);
 
 }
+/*Color de menu*/
 
 #header nav a:hover {
-    background-image: -moz-linear-gradient(top, #66ffcc,#009900);
-    background-image: -webkit-linear-gradient(top, #66ffcc,#009900);
-    background-image: -ms-linear-gradient(top, #66ffcc,#009900);
-    background-image: linear-gradient(top, #66ffcc,#009900);
+    background-image: -moz-linear-gradient(top, #BAEFEB,#216FE6);
+    background-image: -webkit-linear-gradient(top, #BAEFEB,#216FE6);
+    background-image: -ms-linear-gradient(top, #BAEFEB,#216FE6);
+    background-image: linear-gradient(top, #BAEFEB,#216FE6);
     background-color: #0882a1;
     box-shadow: inset 0px 1px 5px 1px rgba(0, 0, 0, 0.05), 0px 0px 5px 1px rgba(255, 255, 255, 0.05);
 }
 
-/* Banner */
+/* Banner*/
 
 #banner-wrapper {
     background: #fff;
@@ -2216,4 +2217,20 @@ input[type="password"]{
         
     
     
+}
+
+
+.contacto{
+     position:center; 
+    height:50px;
+    width: 50px;
+    left: 500px;
+    top: -100px;
+    
+}
+
+.logoabajo{
+    position:center; 
+    top: 70px;
+    border-radius:10px; 
 }
